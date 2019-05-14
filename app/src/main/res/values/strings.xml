@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">second</string>
+    <string name="hit">  请输入摄氏温度 </string>
+    <string name="button">转换为华氏温度</string>
+    <string name="res">结果为:</string>
+    <string name="title">TeamA</string>
+    <string name="title2">TeamB</string>
+    <string name="p1">+1point</string>
+    <string name="p2">+2point</string>
+    <string name="p3">+3point</string>
+    <string name="reset">reset</string>
+    <string name="hit_tip">In put RMB</string>
+    <string name="but_dollar">Dollar</string>
+    <string name="but_euro">Euro</string>
+    <string name="but_won">Won</string>
+    <string name="but_oppen">conrg</string>
+    <string name="but_save">save</string>
+
+</resources>

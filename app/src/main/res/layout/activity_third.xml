@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="@string/hit_tip"
+        android:textSize="20dp">
+    </EditText>
+
+    <TextView
+        android:id="@+id/show_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/but_dollar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_dollar"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/but_euro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_euro"
+        android:onClick="onClick">
+    </Button>
+    <Button
+        android:id="@+id/but_won"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_won"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/but_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_oppen"
+        android:onClick="openOne"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
